@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UIButton *topButton;
+@property (weak, nonatomic) IBOutlet UIButton *bottomButton;
 
 @end
